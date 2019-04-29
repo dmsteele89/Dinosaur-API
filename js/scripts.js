@@ -9,13 +9,10 @@ const getStuff = 'https://raw.githubusercontent.com/shultztom/dinosaur-fact-api/
 // Do stuff with returned data
 let doStuff = function(dinosaurs) {
 
-   // How big is array?     
-  //console.log(data.results); 
+   // How big is array?
   console.log( 'There are ' + dinosaurs.length + ' dinosaurs on this list.' );
   console.log( dinosaurs );
   //console.log( dinosaurs[1].Description);
-  // console.log( data.results[2].trackName)
-  // console.log( data.results[3].trackName);
 
  
   for ( i=0; i < dinosaurs.length; i++ ) {
